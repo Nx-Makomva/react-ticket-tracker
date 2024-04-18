@@ -1,0 +1,18 @@
+.ticket-counter__container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.ticket-counter__results {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  padding: 10px;
+}
+
+.ticket-counter__searchbox {
+  margin-left: 40px;
+}
