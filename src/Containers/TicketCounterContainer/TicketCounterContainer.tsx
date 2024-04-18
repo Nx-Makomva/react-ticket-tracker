@@ -33,7 +33,7 @@ const TicketCounterContainer = ({ profiles }: TicketCounterContainerProps) => {
           handleInput={handleInput}
         />
       </div>
-      <div className="ticket-counter__results ">
+      <div className="ticket-counter__results">
         {filteredResults.map((profile) => (
           <TicketCounter
             key={profile.id}

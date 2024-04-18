@@ -1,4 +1,4 @@
-import React, { FormEvent, FormEventHandler } from 'react'
+import { FormEventHandler } from 'react'
 
 
 type SearchBoxProps = {
@@ -11,6 +11,7 @@ const SearchBox = ({label, searchTerm, handleInput}: SearchBoxProps) => {
   
   return (
     <div>
+      <label htmlFor={label}>{label} </label>
       <input type="text" 
       id={label}
       name={label}
